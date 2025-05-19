@@ -1,0 +1,137 @@
+
+
+
+.twitter_one {
+    height: 100px;
+    width: 8%;
+    object-fit: contain;
+    @media only screen and (max-width: 550px) {
+      width: 100%;
+    }
+  }
+  
+  .kontakt {
+    padding-top: 86px;
+    padding-bottom: 86px;
+    background-color: var(--black_900);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1440px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      padding-top: var(--space-md);
+      padding-bottom: var(--space-md);
+    }
+  
+    @media only screen and (max-width: 550px) {
+      padding-top: var(--space-sm);
+      padding-bottom: var(--space-sm);
+    }
+  }
+  
+  .rowportfolio {
+    margin-bottom: 386px;
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1440px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  }
+  
+  .kontakt-1 {
+    gap: 280px;
+    display: flex;
+    width: 66%;
+    flex-direction: column;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+      gap: 210px;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      gap: 210px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 140px;
+    }
+  }
+  
+  .headerportfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-md);
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .portfolio {
+    font-family: Segoe UI !important;
+    font-weight: 400 !important;
+  }
+  
+  .rowkontakt {
+    align-self: center;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-md);
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
+  .kontakt-2 {
+    margin-top: 48px;
+    font-family: Segoe UI !important;
+    align-self: flex-end;
+    @media only screen and (max-width: 1440px) {
+      font-size: 48px;
+    }
+  }
+  
+  .rowhauptseite-3 {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .socials {
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-md);
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .vector_one {
+    height: 100px;
+    margin-left: 32px;
+    width: 8%;
+    object-fit: contain;
+    @media only screen and (max-width: 550px) {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  

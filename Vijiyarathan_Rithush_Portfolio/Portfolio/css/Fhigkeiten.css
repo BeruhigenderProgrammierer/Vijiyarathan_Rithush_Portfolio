@@ -1,0 +1,220 @@
+
+
+
+.logisches {
+    font-family: Segoe UI !important;
+    @media only screen and (max-width: 1050px) {
+      font-size: 36px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 30px;
+    }
+  }
+  
+  .columnarbeitsei {
+    gap: var(--space-xs);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .f-higkeiten {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 134px;
+    background-color: var(--black_900);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1440px) {
+      gap: 100px;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      gap: 100px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 67px;
+      padding-top: var(--space-sm);
+      padding-bottom: var(--space-sm);
+    }
+  }
+  
+  .row {
+    margin-bottom: 4px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rowfhigkeiten {
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1440px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  }
+  
+  .columnfhigkeite {
+    gap: 54px;
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 27px;
+    }
+  }
+  
+  .column_one {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .description-1 {
+    font-family: Segoe UI !important;
+    width: 96%;
+    line-height: 31px;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .skills {
+    margin-top: -82px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .column {
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rowlogisches {
+    margin-left: 8px;
+    display: flex;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      margin-left: 0px;
+    }
+  }
+  
+  .columnlogisches {
+    gap: 2px;
+    align-self: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+      align-self: stretch;
+    }
+  }
+  
+  .description-2 {
+    font-family: Segoe UI !important;
+    width: 76%;
+    line-height: 31px;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .columnauffassun {
+    gap: 4px;
+    display: flex;
+    width: 42%;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .ichnehmeneue {
+    font-family: Segoe UI !important;
+    width: 100%;
+    line-height: 31px;
+  }
+  
+  .rowarbeitseinsa {
+    margin-right: 16px;
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      margin-right: 0px;
+    }
+  }
+  
+  .icharbeite {
+    font-family: Segoe UI !important;
+    width: 86%;
+    line-height: 31px;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .effizienz {
+    margin-left: 82px;
+    font-family: Segoe UI !important;
+    @media only screen and (max-width: 1050px) {
+      font-size: 36px;
+      margin-left: 0px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 30px;
+    }
+  }
+  
+  .meinfokus {
+    font-family: Segoe UI !important;
+    align-self: flex-end;
+    width: 86%;
+    line-height: 31px;
+    @media only screen and (max-width: 1440px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }  

@@ -1,0 +1,10 @@
+.row-1 {
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-md);
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      margin-right: 0px;
+    }
+  }

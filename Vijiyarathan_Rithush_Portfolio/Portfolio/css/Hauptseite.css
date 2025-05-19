@@ -1,0 +1,110 @@
+.columnheaderlog {
+    margin-bottom: 4px;
+    @media only screen and (max-width: 1440px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      padding-left: var(--space-md);
+      padding-right: var(--space-md);
+    }
+  }
+  
+  .headerheaderlog {
+    margin-right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
+    @media only screen and (max-width: 1050px) {
+      margin-right: 0px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .navigation {
+    gap: 46px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .rowvijiyarathan {
+    margin-left: 82px;
+    margin-right: 38px;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  
+  .columnkontakt {
+    margin-bottom: 88px;
+    gap: 156px;
+    align-self: flex-end;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1440px) {
+      gap: 117px;
+    }
+  
+    @media only screen and (max-width: 1050px) {
+      align-self: stretch;
+      gap: 117px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 78px;
+    }
+  }
+  
+  .columnvijiyarat {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .applikationsent {
+    color: var(--white_a700_7f) !important;
+    margin-top: 14px;
+    @media only screen and (max-width: 1050px) {
+      font-size: 36px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 30px;
+    }
+  }
+  
+  .lerndenderappl {
+    margin-top: 34px;
+    font-family: Segoe UI !important;
+    font-weight: 600 !important;
+  }
+  
+  .kontakt-span {
+    font-size: 72px;
+  }
+  
+  .kontakt-span-1 {
+    font-size: 79px;
+  }
+  
+  .vijiyarathan {
+    height: 930px;
+    opacity: 0.55;
+    width: 42%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }  
