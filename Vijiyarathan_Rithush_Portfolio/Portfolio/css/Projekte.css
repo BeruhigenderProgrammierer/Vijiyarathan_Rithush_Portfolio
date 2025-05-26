@@ -8,44 +8,54 @@
     flex-direction: column;
     align-items: center;
     border-radius: var(--radius-xs);
-    @media only screen and (max-width: 1050px) {
-      width: 100%;
-      padding-top: var(--space-md);
-      padding-bottom: var(--space-md);
+}
+
+@media only screen and (max-width: 1050px) {
+    .columnview {
+        width: 100%;
+        padding-top: var(--space-md);
+        padding-bottom: var(--space-md);
     }
-  
-    @media only screen and (max-width: 550px) {
-      padding-top: var(--space-sm);
-      padding-bottom: var(--space-sm);
+}
+
+@media only screen and (max-width: 550px) {
+    .columnview {
+        padding-top: var(--space-sm);
+        padding-bottom: var(--space-sm);
     }
-  }
-  
-  .stackview {
+}
+
+.stackview {
     height: 280px;
     margin-left: 32px;
     margin-right: 18px;
     align-self: stretch;
     position: relative;
     align-content: center;
-    @media only screen and (max-width: 1440px) {
-      height: auto;
+}
+
+@media only screen and (max-width: 1440px) {
+    .stackview {
+        height: auto;
     }
-  
-    @media only screen and (max-width: 1050px) {
-      height: auto;
-      margin-left: 0px;
-      margin-right: 0px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .stackview {
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-  }
-  
-  .view {
+}
+
+.view {
     height: 280px;
     background-color: var(--gray_800);
     flex: 1;
     border-radius: var(--radius-xs);
-  }
-  
-  .image {
+}
+
+.image {
     height: 280px;
     flex: 1;
     width: 100%;
@@ -57,69 +67,90 @@
     top: 0px;
     margin: auto;
     border-radius: var(--radius-xs);
-  }
-  
-  .javaprojektv {
+}
+
+.javaprojektv {
     font-family: Segoe UI !important;
-    @media only screen and (max-width: 1050px) {
-      font-size: 26px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .javaprojektv {
+        font-size: 26px;
     }
-  
-    @media only screen and (max-width: 550px) {
-      font-size: 24px;
+}
+
+@media only screen and (max-width: 550px) {
+    .javaprojektv {
+        font-size: 24px;
     }
-  }
-  
-  .description-3 {
+}
+
+.description-3 {
     margin-bottom: 150px;
     font-family: Segoe UI !important;
     width: 98%;
     line-height: 31px;
-    @media only screen and (max-width: 1440px) {
-      width: 100%;
-      padding-left: var(--space-md);
-      padding-right: var(--space-md);
+}
+
+@media only screen and (max-width: 1440px) {
+    .description-3 {
+        width: 100%;
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
     }
-  
-    @media only screen and (max-width: 1050px) {
-      width: 100%;
-      padding-left: var(--space-md);
-      padding-right: var(--space-md);
+}
+
+@media only screen and (max-width: 1050px) {
+    .description-3 {
+        width: 100%;
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
     }
-  }
-  
-  .columnheaderlog-1 {
+}
+
+.columnheaderlog-1 {
     margin-bottom: 4px;
     gap: 12px;
     display: flex;
     flex-direction: column;
-    @media only screen and (max-width: 1440px) {
-      padding-left: var(--space-md);
-      padding-right: var(--space-md);
+}
+
+@media only screen and (max-width: 1440px) {
+    .columnheaderlog-1 {
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
     }
-  
-    @media only screen and (max-width: 1050px) {
-      padding-left: var(--space-md);
-      padding-right: var(--space-md);
+}
+
+@media only screen and (max-width: 1050px) {
+    .columnheaderlog-1 {
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
     }
-  }
-  
-  .newscreenbody {
+}
+
+.newscreenbody {
     margin-left: 16px;
     gap: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media only screen and (max-width: 1050px) {
-      margin-left: 0px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .newscreenbody {
+        margin-left: 0px;
     }
-  }
-  
-  .projekte-2 {
+}
+
+.projekte-2 {
     gap: var(--space-4xl);
     display: flex;
     align-self: stretch;
-    @media only screen and (max-width: 1050px) {
-      flex-direction: column;
+}
+
+@media only screen and (max-width: 1050px) {
+    .projekte-2 {
+        flex-direction: column;
     }
-  }
+}
