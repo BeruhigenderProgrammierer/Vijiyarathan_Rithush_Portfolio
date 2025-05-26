@@ -6,7 +6,11 @@
     padding: 18px;
     border-radius: var(--radius-xs);
   }
-  
+
+  .js-code
+  {    
+    margin-left: 178px;  
+  }  
   .columnjavascrip {
     margin-bottom: 22px;
     margin-left: 22px;
