@@ -11,27 +11,6 @@
     }
   }
   
-  .headerheaderlog {
-    margin-right: 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--space-md);
-    @media only screen and (max-width: 1050px) {
-      margin-right: 0px;
-    }
-  
-    @media only screen and (max-width: 550px) {
-      flex-direction: column;
-    }
-  }
-  
-  .navigation {
-    gap: 46px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
   .rowvijiyarathan {
     margin-left: 82px;
     margin-right: 38px;
@@ -87,6 +66,7 @@
   
   .lerndenderappl {
     margin-top: 34px;
+    margin-bottom: 250px;
     font-family: Segoe UI !important;
     font-weight: 600 !important;
   }
@@ -107,4 +87,4 @@
     @media only screen and (max-width: 1050px) {
       width: 100%;
     }
-  }  
+  }

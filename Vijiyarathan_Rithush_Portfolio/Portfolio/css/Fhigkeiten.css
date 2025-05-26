@@ -1,8 +1,6 @@
-
-
-
 .logisches {
     font-family: Segoe UI !important;
+    padding-left: 0px;
     @media only screen and (max-width: 1050px) {
       font-size: 36px;
     }
@@ -21,7 +19,6 @@
   }
   
   .f-higkeiten {
-    padding-top: 40px;
     padding-bottom: 40px;
     gap: 134px;
     background-color: var(--black_900);
@@ -97,6 +94,7 @@
     font-family: Segoe UI !important;
     width: 96%;
     line-height: 31px;
+    margin-bottom: 125px;
     @media only screen and (max-width: 1440px) {
       width: 100%;
     }
@@ -210,6 +208,7 @@
     align-self: flex-end;
     width: 86%;
     line-height: 31px;
+    padding-left: 29px;
     @media only screen and (max-width: 1440px) {
       width: 100%;
     }
@@ -217,4 +216,6 @@
     @media only screen and (max-width: 1050px) {
       width: 100%;
     }
-  }  
+  }
+  
+  /* Keine eigenen Styles für .headerheaderlog-2, .headerlogo_one-1, .navigation-1, .rowhauptseite hier, damit das globale Layout aus styles.css greift. */
