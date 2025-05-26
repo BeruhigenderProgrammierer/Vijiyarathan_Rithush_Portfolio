@@ -8,13 +8,18 @@
 .projekt-content > h1 {
   text-align: center;
   margin-bottom: 48px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: Fira Sans, Segoe UI, Arial, sans-serif;
 }
 .projekt-bilder-row {
   display: flex;
   gap: 48px;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 .projekt-bilder-row > div {
   flex: 1;
@@ -29,17 +34,28 @@
   width: 100%;
   background: #222;
   display: block;
+  box-shadow: 0 2px 16px #0008;
 }
 .projekt-text-row {
   display: flex;
   gap: 48px;
-  margin-top: 48px;
+  margin-top: 0;
   flex-wrap: wrap;
 }
 .projekt-text-row > div {
   flex: 1;
   min-width: 320px;
   max-width: 600px;
+}
+.projekt-text-row h2,
+.projekt-text-row h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  font-family: Fira Sans, Segoe UI, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.6;
 }
 @media (max-width: 1050px) {
   .projekt-bilder-row,
@@ -54,5 +70,8 @@
   }
   .projekt-content {
     padding: 24px 8px 32px 8px;
+  }
+  .projekt-content > h1 {
+    font-size: 2.2rem;
   }
 }
