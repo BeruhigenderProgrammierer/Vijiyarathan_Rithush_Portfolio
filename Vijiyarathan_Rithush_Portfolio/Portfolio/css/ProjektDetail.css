@@ -17,7 +17,7 @@
 .projekt-bilder-row {
   display: flex;
   gap: 48px;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 32px;
@@ -124,4 +124,20 @@
   .projekt-text-row h3 {
     font-size: 1rem;
   }
+}
+
+/* Rechtes Bild vertikal mittig zum linken Bild ausrichten */
+.projekt-bilder-row > div:last-child {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+/* Bild im rechten Container mittig ausrichten */
+.projekt-bilder-row > div:last-child img,
+.projekt-bilder-row > div:last-child video,
+.projekt-bilder-row > div:last-child .J-Code,
+.projekt-bilder-row > div:last-child .js-code {
+  margin-top: auto;
+  margin-bottom: auto;
 }
