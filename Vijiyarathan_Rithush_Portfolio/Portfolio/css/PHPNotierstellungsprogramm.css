@@ -93,5 +93,27 @@
   white-space: normal;
   word-break: break-word;
 }
+@media only screen and (max-width: 700px) {
+  .projekt-bilder-row,
+  .projekt-text-row {
+    margin-left: 0;
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .projekt-bilder-row img {
+    margin-left: 0 !important;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .projekt-text-row > div {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .description-6 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
 
 

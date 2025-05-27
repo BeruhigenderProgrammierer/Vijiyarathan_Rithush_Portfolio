@@ -39,6 +39,11 @@
       padding-top: var(--space-sm);
       padding-bottom: var(--space-sm);
     }
+  
+    @media only screen and (max-width: 700px) {
+      gap: 32px;
+      padding-bottom: 16px;
+    }
   }
   
   .row {
@@ -62,6 +67,11 @@
       padding-left: var(--space-md);
       padding-right: var(--space-md);
     }
+  
+    @media only screen and (max-width: 700px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
   
   .columnfhigkeite {
@@ -80,6 +90,11 @@
   
     @media only screen and (max-width: 550px) {
       gap: 27px;
+    }
+  
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+      gap: 18px;
     }
   }
   
@@ -102,12 +117,21 @@
     @media only screen and (max-width: 1050px) {
       width: 100%;
     }
+  
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 32px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
   }
   
   .skills {
     margin-top: -82px;
     position: relative;
     align-self: stretch;
+    @media only screen and (max-width: 700px) {
+      margin-top: 0;
+    }
   }
   
   .column {
@@ -123,6 +147,13 @@
     @media only screen and (max-width: 1050px) {
       flex-direction: column;
       margin-left: 0px;
+    }
+  
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      gap: 12px;
     }
   }
   
@@ -175,6 +206,13 @@
       flex-direction: column;
       margin-right: 0px;
     }
+  
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      gap: 12px;
+    }
   }
   
   .icharbeite {
@@ -200,6 +238,11 @@
   
     @media only screen and (max-width: 550px) {
       font-size: 30px;
+    }
+  
+    @media only screen and (max-width: 700px) {
+      margin-left: 0;
+      font-size: 1.2rem;
     }
   }
   

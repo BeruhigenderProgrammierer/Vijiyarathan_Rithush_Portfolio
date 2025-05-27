@@ -4,6 +4,7 @@
   padding: 40px 40px 60px 40px;
   max-width: 100%;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 .projekt-content > h1 {
   text-align: center;
@@ -20,6 +21,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 32px;
+  align-items: stretch;
 }
 .projekt-bilder-row > div {
   flex: 1;
@@ -28,6 +30,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  justify-content: stretch;
 }
 .projekt-bilder-row img {
   border-radius: 12px;
@@ -35,6 +38,14 @@
   background: #222;
   display: block;
   box-shadow: 0 2px 16px #0008;
+}
+.projekt-bilder-row > div img,
+.projekt-bilder-row > div video,
+.projekt-bilder-row > div .J-Code,
+.projekt-bilder-row > div .js-code {
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
 .projekt-text-row {
   display: flex;
@@ -77,5 +88,40 @@
   }
   .projekt-content > h1 {
     font-size: 2.2rem;
+  }
+}
+@media (max-width: 700px) {
+  .projekt-content {
+    padding: 12px 2px 20px 2px;
+  }
+  .projekt-content > h1 {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+  .projekt-bilder-row,
+  .projekt-text-row {
+    gap: 16px;
+  }
+  .projekt-bilder-row > div,
+  .projekt-text-row > div {
+    min-width: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .projekt-bilder-row img {
+    border-radius: 8px;
+    box-shadow: 0 1px 6px #0005;
+  }
+  .projekt-bilder-row > div img,
+  .projekt-bilder-row > div video,
+  .projekt-bilder-row > div .J-Code,
+  .projekt-bilder-row > div .js-code {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .projekt-text-row h2,
+  .projekt-text-row h3 {
+    font-size: 1rem;
   }
 }

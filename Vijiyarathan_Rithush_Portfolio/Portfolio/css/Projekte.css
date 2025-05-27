@@ -19,6 +19,15 @@
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .columnview {
+        width: 100%;
+        height: auto;
+        padding: 16px 8px;
+        min-width: 0;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .columnview {
         padding-top: var(--space-sm);
@@ -46,6 +55,14 @@
         height: auto;
         margin-left: 0px;
         margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .stackview {
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -109,6 +126,16 @@
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .description-3 {
+        margin-bottom: 32px;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .columnheaderlog-1 {
     margin-bottom: 4px;
     gap: 12px;
@@ -153,5 +180,11 @@
 @media only screen and (max-width: 1050px) {
     .projekte-2 {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .projekte-2 {
+        gap: var(--space-md);
     }
 }

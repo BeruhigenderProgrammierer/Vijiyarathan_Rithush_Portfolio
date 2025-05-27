@@ -21,6 +21,12 @@
       margin-left: 0px;
       margin-right: 0px;
     }
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      align-items: center;
+    }
   }
   
   .columnkontakt {
@@ -42,6 +48,10 @@
   
     @media only screen and (max-width: 550px) {
       gap: 78px;
+    }
+    @media only screen and (max-width: 700px) {
+      gap: 48px;
+      margin-bottom: 32px;
     }
   }
   
@@ -69,6 +79,10 @@
     margin-bottom: 350px;
     font-family: Segoe UI !important;
     font-weight: 600 !important;
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 80px;
+      font-size: 1.1rem;
+    }
   }
   
   .kontakt-span {
@@ -87,5 +101,11 @@
     padding-bottom: 250px;
     @media only screen and (max-width: 1050px) {
       width: 100%;
+    }
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+      height: auto;
+      padding-bottom: 40px;
+      max-width: 350px;
     }
   }

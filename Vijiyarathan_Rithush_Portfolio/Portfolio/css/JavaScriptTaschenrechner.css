@@ -59,4 +59,20 @@
       width: 100%;
     }
   }
-  
+
+  @media only screen and (max-width: 700px) {
+    .js-code {
+      margin-left: 0;
+      width: 100%;
+      max-width: 320px;
+    }
+    .columnjavascrip {
+      margin-left: 0;
+      gap: 24px;
+    }
+    .description-10 {
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
