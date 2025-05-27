@@ -43,9 +43,12 @@
   flex-wrap: wrap;
 }
 .projekt-text-row > div {
-  flex: 1;
+  flex: unset;
+  display: inline-block;
+  vertical-align: top;
   min-width: 320px;
   max-width: 600px;
+  margin-bottom: 0;
 }
 .projekt-text-row h2,
 .projekt-text-row h3 {
@@ -67,6 +70,7 @@
   .projekt-text-row > div {
     max-width: 100%;
     min-width: 0;
+    display: block;
   }
   .projekt-content {
     padding: 24px 8px 32px 8px;
