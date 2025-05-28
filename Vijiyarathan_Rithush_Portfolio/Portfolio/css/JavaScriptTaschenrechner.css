@@ -64,7 +64,9 @@
     .js-code {
       margin-left: 0;
       width: 100%;
-      max-width: 320px;
+      max-width: 95vw;
+      display: block;
+      object-fit: contain;
     }
     .columnjavascrip {
       margin-left: 0;

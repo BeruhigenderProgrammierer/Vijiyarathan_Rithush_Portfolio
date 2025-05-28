@@ -102,13 +102,17 @@
   }
   .projekt-bilder-row img {
     margin-left: 0 !important;
-    max-width: 100%;
+    max-width: 95vw;
+    width: 100%;
     border-radius: 8px;
+    display: block;
+    object-fit: contain;
   }
   .projekt-text-row > div {
-    max-width: 100%;
+    max-width: 100vw;
     font-size: 1rem;
     line-height: 1.5;
+    padding: 0 2vw;
   }
   .description-6 {
     font-size: 1rem;
