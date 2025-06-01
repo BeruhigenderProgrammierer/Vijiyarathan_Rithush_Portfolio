@@ -27,25 +27,18 @@
   background-color: var(--black_900);
 }
 
-.headerlogo_one, .headerlogo_one-1 {
-  height: 32px;
-  width: 92px;
-  object-fit: contain;
-  margin: 0;
-}
-
+/* Common header styles for all pages */
 .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
-  background: transparent;
-  padding: 0 4vw 0 4vw;
-  margin: 0 0 50px 0;
+  background: var(--black_900);
+  padding: 1rem 4vw;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 6vw;
   width: 100%;
-  min-height: 80px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .navigation, .navigation-1, .rowhauptseite, .rowhauptseite-4, .rowhauptseite-3 {
@@ -56,11 +49,16 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
 }
 .navigation li, .navigation-1 li, .rowhauptseite li, .rowhauptseite-4 li, .rowhauptseite-3 li {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+.headerlogo_one, .headerlogo_one-1 {
+  height: 28px;
+  width: auto;
 }
 
 @media (max-width: 1200px) {
@@ -73,27 +71,38 @@
 @media (max-width: 900px) {
   .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-    padding: 0 0 24px 0;
-    min-height: unset;
+    padding: 1rem 2vw;
+    align-items: center;
   }
+
+  .headerlogo_one, .headerlogo_one-1 {
+    margin-bottom: 1.5rem;
+    height: 32px;
+    width: auto;
+  }
+
   .navigation, .navigation-1, .rowhauptseite, .rowhauptseite-4, .rowhauptseite-3 {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .navigation li a, .navigation-1 li a, .rowhauptseite li a, 
+  .rowhauptseite-4 li a, .rowhauptseite-3 li a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
   }
 }
-@media (max-width: 700px) {
-  .hauptseite, .java-projektv, .f-higkeiten, .kontakt, .ber-mich {
-    padding: 0 0.5rem;
+
+@media (max-width: 600px) {
+  .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
+    padding: 1rem 0.5rem;
   }
-  .wrapper, .container-xs {
-    padding: 0 0.5rem;
-  }
-  img, video {
-    max-width: 100vw;
-    height: auto;
+
+  .navigation, .navigation-1, .rowhauptseite, .rowhauptseite-4, .rowhauptseite-3 {
+    gap: 1rem;
   }
 }
 

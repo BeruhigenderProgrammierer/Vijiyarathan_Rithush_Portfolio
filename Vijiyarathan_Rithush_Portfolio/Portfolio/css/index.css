@@ -62,4 +62,45 @@ body {
   select:focus-visible {
     outline: none;
   }
-  
+
+  /* Global header styles */
+.headerheaderlog {
+  background-color: var(--black_900);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2vw;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.headerlogo_one {
+  height: 28px;
+  width: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .headerheaderlog {
+    padding: 1rem 1vw;
+  }
+
+  .navigation {
+    gap: 1rem;
+  }
+}
