@@ -72,27 +72,17 @@
   .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
     flex-direction: column;
     padding: 1rem 2vw;
-    align-items: center;
   }
 
   .headerlogo_one, .headerlogo_one-1 {
-    margin-bottom: 1.5rem;
-    height: 32px;
-    width: auto;
+    margin-bottom: 1rem;
   }
 
   .navigation, .navigation-1, .rowhauptseite, .rowhauptseite-4, .rowhauptseite-3 {
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
     gap: 1.5rem;
-  }
-
-  .navigation li a, .navigation-1 li a, .rowhauptseite li a, 
-  .rowhauptseite-4 li a, .rowhauptseite-3 li a {
-    font-size: 1rem;
-    padding: 0.5rem 0;
   }
 }
 
