@@ -1,257 +1,178 @@
+/* Optimiertes CSS für die Projekte Seite */
+
 .columnview {
-    background-color: #181818 !important;
-    padding: 36px 20px 36px 20px;
-    gap: var(--space-md);
-    display: flex;
-    min-height: 670px;
-    height: 670px;
-    max-height: 670px;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 24px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.35);
-    margin: 0 32px 28px 32px;
-    transition: transform 0.15s, box-shadow 0.15s;
-    border: none;
-    position: relative;
-    width: 1100px;
-    max-width: 1100px;
-    min-width: 450px;
+  background-color: #181818 !important;
+  padding: 36px 20px;
+  gap: var(--space-md);
+  display: flex;
+  min-height: 670px;
+  height: 670px;
+  max-height: 670px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+  margin: 0 32px 28px;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: none;
+  position: relative;
+  width: 1100px;
+  max-width: 1100px;
+  min-width: 450px;
 }
 
 .columnview:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.45);
 }
 
 .stackview {
-    width: 100%;
-    height: 220px;
-    margin: 0 0 18px 0;
-    align-self: stretch;
-    position: relative;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: none;
+  width: 100%;
+  height: 220px;
+  margin: 0 0 18px;
+  align-self: stretch;
+  position: relative;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
 }
 
 .image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-    background: none;
-    box-shadow: 0 2px 16px #0008;
-    margin: 0 auto;
-    display: block;
-    border: none;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  background: none;
+  box-shadow: 0 2px 16px #0008;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  padding: 0;
 }
 
 .javaprojektv {
-    font-family: Segoe UI, Arial, sans-serif !important;
-    margin: 24px 0 12px 0;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1.1;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
-    text-align: left;
-    background: none;
-    z-index: 2;
-    position: relative;
+  font-family: Segoe UI, Arial, sans-serif !important;
+  margin: 24px 0 12px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  text-align: left;
+  background: none;
+  z-index: 2;
+  position: relative;
 }
 
 .javaprojektv.ui.heading.size-headings {
-    display: block;
-    color: #fff !important;
-    font-size: 2rem !important;
-    font-weight: 700 !important;
-    margin: 24px 0 12px 0 !important;
-    line-height: 1.1 !important;
-    white-space: normal !important;
-    overflow: visible !important;
-    text-overflow: initial !important;
-    word-break: break-word !important;
-    text-align: left !important;
-    background: none !important;
-    z-index: 2;
-    position: relative;
+  display: block;
+  color: #fff !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  margin: 24px 0 12px !important;
+  line-height: 1.1 !important;
+  text-align: left !important;
+  background: none !important;
 }
 
 .description-3 {
-    font-family: Segoe UI, Arial, sans-serif !important;
-    width: 100%;
-    line-height: 1.5;
-    color: #fff;
-    font-size: 1.25rem;
-    margin: 0 0 24px 0;
-    word-break: break-word;
-    text-align: left;
+  font-family: Segoe UI, Arial, sans-serif !important;
+  width: 100%;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 0 0 24px;
+  word-break: break-word;
+  text-align: left;
 }
 
 .projekte-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    flex-wrap: nowrap;
-    margin-top: 32px;
-    align-self: stretch;
-    width: 100%;
-    max-width: 1600px;
-    padding-left: 32px;
-    padding-right: 32px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 32px;
+  align-self: stretch;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 32px;
+  box-sizing: border-box;
 }
 
-.projekte-2 .columnview {
-    min-height: 670px;
-    height: 670px;
-    max-height: 670px;
-    width: 1100px;
-    max-width: 1100px;
-    min-width: 450px;
-}
-
-.effizienz-beschreibung {
-        display: block;
-        margin-left: 0;
-        margin-top: 0.5em;
-        font-size: 1.1em;
-        font-weight: 400;
-        color: #fff;
-        text-align: left;
-    }
-
+/* Media Queries */
 @media only screen and (max-width: 1400px) {
-    .projekte-2 {
-        gap: 10px;
-        max-width: 100vw;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    .columnview {
-        width: 42vw;
-        max-width: 540px;
-        min-width: 320px;
-    }
+  .projekte-2 {
+    gap: 10px;
+    max-width: 100vw;
+    padding: 0 12px;
+  }
+
+  .columnview {
+    width: 90vw;
+    max-width: 600px;
+    min-width: 260px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .projekte-2 {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-        width: 100vw;
-        max-width: 100vw;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0;
-        background: transparent;
-    }
-    .columnview {
-        width: 100% !important;
-        max-width: 540px !important;
-        min-width: 0 !important;
-        margin: 0 auto 24px auto;
-        padding: 24px 8px 32px 8px;
-        border-radius: 20px;
-        background: #181818 !important;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.25);
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        box-sizing: border-box;
-        transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .columnview:hover {
-        transform: translateY(-6px) scale(1.03);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.45);
-    }
-    .stackview {
-        width: 100%;
-        min-height: 100px;
-        max-height: 220px;
-        height: auto;
-        margin-bottom: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: none;
-        border-radius: 12px;
-        overflow: hidden;
-    }
-    .image {
-        display: block !important;
-        width: 100%;
-        max-width: 540px;
-        height: auto;
-        max-height: 220px;
-        object-fit: contain;
-        border-radius: 12px;
-        margin: 0 auto 0 auto;
-        background: none !important;
-        box-shadow: 0 2px 16px #0008;
-    }
-    .javaprojektv.ui.heading.size-headings {
-        font-size: 2.2rem !important;
-        margin: 24px 0 16px 0 !important;
-        text-align: center !important;
-        width: 100%;
-        color: #fff !important;
-        font-family: Fira Sans, Segoe UI, Arial, sans-serif !important;
-    }
-    .description-3 {
-        font-size: 1.15rem;
-        margin: 0 0 24px 0;
-        width: 100%;
-        text-align: center !important;
-        color: #fff;
-        font-family: Fira Sans, Segoe UI, Arial, sans-serif !important;
-    }
+  .projekte-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+
+  .columnview {
+    width: 94vw !important;
+    max-width: 480px !important;
+    min-width: 220px !important;
+    margin: 0 auto 24px;
+    padding: 24px 4vw 32px;
+    border-radius: 20px !important;
+  }
+
+  .image {
+    max-width: 100%;
+    border-radius: 20px !important;
+  }
+
+  .javaprojektv.ui.heading.size-headings {
+    font-size: 2.2rem !important;
+    margin: 24px 0 16px !important;
+    text-align: center !important;
+    width: 100%;
+    color: #fff !important;
+    font-family: Fira Sans, Segoe UI, Arial, sans-serif !important;
+  }
+
+  .description-3 {
+    font-size: 1.15rem;
+    margin: 0 0 24px;
+    width: 100%;
+    text-align: center !important;
+    color: #fff;
+    font-family: Fira Sans, Segoe UI, Arial, sans-serif !important;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .columnview {
-        width: 100vw;
-        max-width: 98vw;
-        padding: 12px 2px 20px 2px;
-        border-radius: 14px;
-    }
-    .stackview {
-        min-height: 80px;
-        max-height: 160px;
-        margin-bottom: 16px;
-        border-radius: 8px;
-    }
-    .image {
-        max-width: 95vw;
-        max-height: 160px;
-        border-radius: 8px;
-        box-shadow: 0 1px 6px #0005;
-    }
-    .javaprojektv.ui.heading.size-headings {
-        font-size: 1.3rem !important;
-        margin: 16px 0 8px 0 !important;
-        text-align: center !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        width: 100%;
-    }
-    .description-3 {
-        font-size: 1rem;
-        margin: 0 0 16px 0;
-        text-align: center !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        width: 100%;
-        display: block;
-    }
+  .columnview {
+    width: 98vw !important;
+    max-width: 99vw !important;
+    min-width: 0 !important;
+    padding: 12px 1vw 20px;
+    border-radius: 14px !important;
+  }
+
+  .image {
+    max-width: 100%;
+    border-radius: 14px !important;
+  }
 }
