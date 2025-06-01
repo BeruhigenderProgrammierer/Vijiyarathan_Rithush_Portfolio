@@ -1,12 +1,75 @@
-.row-2 {
-    margin-right: 12px;
-    display: flex;
-    justify-content: space-between;
+/* Optimiertes CSS für Notizerstellungsprogramm */
+
+.projekt-bilder-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.projekt-bilder-row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+  display: block;
+}
+
+.PHPimg {
+  margin-left: 178px;
+}
+
+.projekt-text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.projekt-text-row > div {
+  flex: 1 1 0;
+  max-width: 500px;
+}
+
+@media (max-width: 1050px) {
+  .projekt-bilder-row,
+  .projekt-text-row {
+    flex-direction: column;
     align-items: center;
-    gap: var(--space-md);
-    @media only screen and (max-width: 1050px) {
-      flex-direction: column;
-      margin-right: 0px;
-    }
+    gap: 32px;
   }
-  
+
+  .projekt-bilder-row img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+  }
+
+  .PHPimg {
+    margin-left: 0;
+  }
+
+  .projekt-text-row > div {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .projekt-bilder-row,
+  .projekt-text-row {
+    gap: 24px;
+  }
+
+  .projekt-bilder-row img {
+    max-width: 95vw;
+  }
+
+  .projekt-text-row > div {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 16px;
+  }
+}
