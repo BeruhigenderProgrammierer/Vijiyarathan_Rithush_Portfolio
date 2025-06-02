@@ -84,6 +84,11 @@
   .vijiyarathan {
     width: 100%;
   }
+    .vijiyarathan-1
+  {
+    padding-top: 80px;
+    margin-bottom: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -107,6 +112,11 @@
     padding-bottom: 150px;
     max-width: 350px;
   }
+  .vijiyarathan-1
+  {
+    padding-top: 80px;
+    margin-bottom: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -116,5 +126,10 @@
 
   .applikationsent {
     font-size: 30px;
+  }
+    .vijiyarathan-1
+  {
+    padding-top: 80px;
+    margin-bottom: 0px !important;
   }
 }
