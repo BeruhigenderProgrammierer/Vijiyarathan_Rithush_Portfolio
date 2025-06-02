@@ -64,10 +64,18 @@
   .headerheaderlog-2 {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center align elements */
+    justify-content: center; /* Center align the header content */
+    padding-top: 20px; /* Increase spacing from the top */
+  }
+
+  .headerlogo_one-1 {
+    margin-bottom: 20px; /* Add more spacing below the logo */
   }
 
   .navigation-1 {
-    margin-bottom: 20px; /* Consistent spacing below navigation */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px; /* Adjust spacing below navigation */
   }
 }
 
