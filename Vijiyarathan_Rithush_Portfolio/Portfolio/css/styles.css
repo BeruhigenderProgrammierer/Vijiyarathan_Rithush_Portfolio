@@ -63,6 +63,32 @@
   text-align: center;
 }
 
+/* Navigation Styles with underline animation */
+.navigation-1 a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-1 a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navigation-1 a:hover::after {
+  width: 100%;
+}
+
+.navigation-1 a.active::after {
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   .headerheaderlog, .headerheaderlog-1, .headerheaderlog-2, .headerportfolio {
     padding-left: 2vw;
