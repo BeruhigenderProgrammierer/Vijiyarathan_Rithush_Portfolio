@@ -100,6 +100,12 @@
   box-sizing: border-box;
 }
 
+.projekt-heading {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
 @media only screen and (max-width: 1400px) {
   .projekte-2 {
     gap: 10px;
