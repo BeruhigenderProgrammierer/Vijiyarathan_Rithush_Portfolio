@@ -65,13 +65,14 @@ body {
 
   /* Global header styles */
 .headerheaderlog {
-  background-color: var(--black_900);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2vw;
+  justify-content: space-between;
+  height: 80px; /* Set consistent height */
+  padding: 0 2vw;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .navigation {
@@ -89,18 +90,20 @@ body {
   padding: 0;
 }
 
-.headerlogo_one {
-  height: 28px;
-  width: auto;
-}
-
 /* Responsive adjustments */
 @media (max-width: 900px) {
   .headerheaderlog {
-    padding: 1rem 1vw;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+  }
+
+  .headerlogo_one, .navigation {
+    width: 100%; /* Ensure equal width for all header elements */
+    text-align: center;
   }
 
   .navigation {
-    gap: 1rem;
+    margin-top: 1rem; /* Add spacing below 'Portfolio.' */
+    margin-bottom: 20px; /* Consistent spacing below navigation */
   }
 }

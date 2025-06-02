@@ -1,5 +1,12 @@
 /* Optimiertes CSS für die Fähigkeiten Seite */
 
+body {
+  background-color: #000 !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .logisches {
   font-family: Segoe UI !important;
   padding-left: 0;
@@ -16,7 +23,7 @@
 .f-higkeiten {
   padding-bottom: 40px;
   gap: 134px;
-  background-color: var(--black_900);
+  background-color: #000 !important;
   display: flex;
   width: 100%;
   flex-direction: column;

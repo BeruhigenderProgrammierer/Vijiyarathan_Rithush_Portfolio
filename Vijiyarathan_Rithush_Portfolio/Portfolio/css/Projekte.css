@@ -1,5 +1,3 @@
-/* Optimiertes CSS für die Projekte Seite */
-
 .columnview {
   background-color: #181818 !important;
   padding: 36px 20px;
@@ -102,7 +100,6 @@
   box-sizing: border-box;
 }
 
-/* Media Queries */
 @media only screen and (max-width: 1400px) {
   .projekte-2 {
     gap: 10px;
