@@ -1,16 +1,12 @@
-/* Optimiertes CSS für die Hauptseite */
-
 .columnheaderlog {
   margin-bottom: 4px;
 }
-
 .rowvijiyarathan {
   margin-left: 82px;
   margin-right: 38px;
   display: flex;
   align-items: center;
 }
-
 .columnkontakt {
   margin-bottom: 88px;
   gap: 156px;
@@ -20,26 +16,22 @@
   flex-direction: column;
   align-items: flex-start;
 }
-
 .columnvijiyarat {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
 .applikationsent {
   color: var(--white_a700_7f) !important;
   margin-top: 14px;
 }
-
 .lerndenderappl {
   margin-top: 34px;
   margin-bottom: 350px;
   font-family: Segoe UI !important;
   font-weight: 600 !important;
 }
-
 .vijiyarathan {
   height: 930px;
   opacity: 0.55;
@@ -47,40 +39,32 @@
   object-fit: contain;
   padding-bottom: 250px;
 }
-
-/* Media Queries */
 @media only screen and (max-width: 1440px) {
   .columnheaderlog {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
-
   .columnkontakt {
     gap: 117px;
   }
 }
-
 @media only screen and (max-width: 1050px) {
   .columnheaderlog {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
-
   .rowvijiyarathan {
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
   }
-
   .columnkontakt {
     align-self: stretch;
     gap: 117px;
   }
-
   .applikationsent {
     font-size: 36px;
   }
-
   .vijiyarathan {
     width: 100%;
   }
@@ -90,22 +74,18 @@
     margin-bottom: 0px !important;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .rowvijiyarathan {
     align-items: center;
   }
-
   .columnkontakt {
     gap: 48px;
     margin-bottom: 32px;
   }
-
   .lerndenderappl {
     margin-bottom: 80px;
     font-size: 1.1rem;
   }
-
   .vijiyarathan {
     width: 100%;
     height: auto;
@@ -118,12 +98,10 @@
     margin-bottom: 0px !important;
   }
 }
-
 @media only screen and (max-width: 550px) {
   .columnkontakt {
     gap: 78px;
   }
-
   .applikationsent {
     font-size: 30px;
   }

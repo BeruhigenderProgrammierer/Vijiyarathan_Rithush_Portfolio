@@ -1,7 +1,6 @@
 body, html {
   background: #000 !important;
 }
-
 .headerheaderlog-2 {
   background-color: var(--black_900);
   padding: 1rem 4vw;
@@ -13,7 +12,6 @@ body, html {
   justify-content: space-between;
   align-items: center;
 }
-
 .navigation-1, .rowhauptseite {
   display: flex;
   flex-direction: row;
@@ -22,14 +20,12 @@ body, html {
   margin: 0;
   padding: 0;
 }
-
 .headerlogo_one-1 {
   height: 32px;
   width: 92px;
   object-fit: contain;
   margin: 0;
 }
-
 .kontakt {
   width: 100%;
   padding: 86px 0;
@@ -37,14 +33,12 @@ body, html {
   display: flex;
   justify-content: center;
 }
-
 .kontakt-section {
   width: 100%;
   padding: 80px 20px;
   color: #fff;
   background-color: #000 !important;
 }
-
 .kontakt-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -52,14 +46,12 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
-
 .kontakt-title {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
 }
-
 .kontakt-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -69,20 +61,17 @@ body, html {
   margin-bottom: 60px;
   justify-items: center;
 }
-
 .kontakt-field {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-
 .kontakt-label {
   display: block;
   font-weight: 700;
   margin-bottom: 8px;
   font-size: 1.1rem;
 }
-
 .kontakt-input {
   width: 100%;
   padding: 14px 16px;
@@ -93,12 +82,10 @@ body, html {
   font-size: 1.1rem;
   font-weight: 500;
 }
-
 .kontakt-input::placeholder {
   color: #888;
   opacity: 1;
 }
-
 .kontakt-button {
   grid-column: 1 / -1;
   width: 100%;
@@ -115,11 +102,9 @@ body, html {
   transition: background-color 0.2s;
   letter-spacing: 0.5px;
 }
-
 .kontakt-button:hover {
   background: #444 !important;
 }
-
 .kontakt-social {
   display: flex;
   justify-content: space-around;
@@ -129,7 +114,6 @@ body, html {
   margin: 80px auto 0;
   gap: 0;
 }
-
 .kontakt-social-link {
   font-size: 36px;
   color: #fff;
@@ -141,17 +125,14 @@ body, html {
   height: 60px;
   border-radius: 50%;
 }
-
 .kontakt-social-link:hover {
   color: #888;
 }
-
 .kontakt-social-link img {
   width: 36px;
   height: 36px;
   display: block;
 }
-
 @media (max-width: 1440px) {
   .kontakt {
     padding: 32px 0;
@@ -160,7 +141,6 @@ body, html {
     font-size: 48px;
   }
 }
-
 @media (max-width: 1050px) {
   .headerportfolio,
   .rowkontakt {
@@ -171,7 +151,6 @@ body, html {
     padding: var(--space-md) 0;
   }
 }
-
 @media (max-width: 900px) {
   .headerheaderlog-2 {
     flex-direction: column;
@@ -182,7 +161,7 @@ body, html {
   }
   .navigation-1 {
     width: 100%;
-    margin-bottom: 20px; /* Consistent spacing below navigation */
+    margin-bottom: 20px; 
   }
   .rowhauptseite {
     justify-content: center;
@@ -190,7 +169,6 @@ body, html {
     gap: 1.5rem;
   }
 }
-
 @media (max-width: 700px) {
   .kontakt-section {
     padding: 32px 4px;
@@ -224,13 +202,11 @@ body, html {
     height: 28px;
   }
 }
-
 @media (max-width: 600px) {
   .rowhauptseite {
     gap: 1rem;
   }
 }
-
 @media (max-width: 550px) {
   .kontakt {
     padding: var(--space-sm) 0;
@@ -243,4 +219,4 @@ body, html {
     width: 100%;
     margin-left: 0;
   }
-}
+}

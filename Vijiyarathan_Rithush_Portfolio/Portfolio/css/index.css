@@ -3,32 +3,27 @@ body {
     padding: 0;
     font-family: Fira Sans;
   }
-  
   * {
     box-sizing: border-box;
     line-height: normal;
     font-family: inherit;
     margin: unset;
   }
-  
   img {
     max-width: 100%;
     height: auto;
   }
-  
   a {
     text-decoration: none;
     color: white;
     display: block;
   }
-  
   ul {
     margin: 0;
     margin-inline: unset !important;
     padding: 0;
     list-style: none;
   }
-  
   [type="text"],
   input:where(:not([type])),
   [type="email"],
@@ -62,19 +57,16 @@ body {
   select:focus-visible {
     outline: none;
   }
-
-  /* Global header styles */
 .headerheaderlog {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 80px; /* Set consistent height */
+  height: 80px; 
   padding: 0 2vw;
   width: 100%;
   box-sizing: border-box;
 }
-
 .navigation {
   display: flex;
   flex-direction: row;
@@ -84,26 +76,21 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .navigation li {
   margin: 0;
   padding: 0;
 }
-
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .headerheaderlog {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align elements */
+    flex-direction: column; 
+    align-items: center; 
   }
-
   .headerlogo_one, .navigation {
-    width: 100%; /* Ensure equal width for all header elements */
+    width: 100%; 
     text-align: center;
   }
-
   .navigation {
-    margin-top: 1rem; /* Add spacing below 'Portfolio.' */
-    margin-bottom: 20px; /* Consistent spacing below navigation */
+    margin-top: 1rem; 
+    margin-bottom: 20px; 
   }
-}
+}

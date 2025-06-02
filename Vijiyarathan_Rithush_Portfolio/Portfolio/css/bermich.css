@@ -1,5 +1,3 @@
-/* Optimiertes CSS für die Über Mich Seite */
-
 .ber-mich {
   padding-bottom: var(--space-xl);
   background-color: var(--black_900);
@@ -7,25 +5,21 @@
   display: flex;
   justify-content: center;
 }
-
 .rowheaderlogo {
   margin-bottom: 340px;
   display: flex;
   justify-content: center;
 }
-
 .bermich {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .bermich-1 {
   margin-top: 150px;
   font-family: Segoe UI !important;
 }
-
 .description {
   margin-top: 84px;
   font-family: Segoe UI !important;
@@ -33,40 +27,32 @@
   width: 70%;
   line-height: 31px;
 }
-
-/* Media Queries */
 @media only screen and (max-width: 1440px) {
   .rowheaderlogo {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
-
   .bermich-1 {
     font-size: 48px;
   }
-
   .description {
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 1050px) {
   .rowheaderlogo {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }
-
   .description {
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .bermich-1 {
     margin-top: 40px;
     font-size: 2rem !important;
   }
-
   .description {
     margin-top: 32px;
     width: 100%;
@@ -74,7 +60,6 @@
     line-height: 1.5;
   }
 }
-
 @media only screen and (max-width: 550px) {
   .ber-mich {
     padding-top: var(--space-sm);

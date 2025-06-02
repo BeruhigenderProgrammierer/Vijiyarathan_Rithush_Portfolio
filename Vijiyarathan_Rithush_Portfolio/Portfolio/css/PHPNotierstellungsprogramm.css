@@ -5,7 +5,6 @@
   align-items: flex-start;
   gap: 32px;
 }
-
 .projekt-bilder-row img {
   max-width: 100%;
   height: auto;
@@ -13,11 +12,9 @@
   box-shadow: 0 2px 16px rgba(0,0,0,0.15);
   display: block;
 }
-
 .PHPimg {
   margin-left: 178px;
 }
-
 .projekt-text-row {
   display: flex;
   flex-direction: row;
@@ -26,25 +23,20 @@
   gap: 32px;
   margin-top: 32px;
 }
-
 .projekt-text-row > div {
   flex: 1 1 0;
   max-width: 500px;
 }
-
-/* Global header styles */
 .headerheaderlog-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 80px; /* Set consistent height */
+  height: 80px; 
   padding: 0 2vw;
   width: 100%;
   box-sizing: border-box;
 }
-
-
 .navigation-1 {
   display: flex;
   flex-direction: row;
@@ -54,33 +46,26 @@
   margin: 0;
   padding: 0;
 }
-
-
 .navigation-1 li {
   margin: 0;
   padding: 0;
 }
-
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .headerheaderlog-2 {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align elements */
-    justify-content: center; /* Center align the header content */
-    padding-top: 20px; /* Increase spacing from the top */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 20px; 
   }
-
   .headerlogo_one-1 {
-    margin-bottom: 20px; /* Add more spacing below the logo */
+    margin-bottom: 20px; 
   }
-
   .navigation-1 {
     width: 100%;
     text-align: center;
-    margin-bottom: 25px; /* Adjust spacing below navigation */
+    margin-bottom: 25px; 
   }
 }
-
 @media (max-width: 1050px) {
   .projekt-bilder-row,
   .projekt-text-row {
@@ -88,35 +73,29 @@
     align-items: center;
     gap: 32px;
   }
-
   .projekt-bilder-row img {
     width: 100%;
     max-width: 420px;
     height: auto;
   }
-
   .PHPimg {
     margin-left: 0;
   }
-
   .projekt-text-row > div {
     max-width: 100%;
   }
 }
-
 @media (max-width: 700px) {
   .projekt-bilder-row,
   .projekt-text-row {
     gap: 24px;
   }
-
   .projekt-bilder-row img {
     max-width: 95vw;
   }
-
   .projekt-text-row > div {
     font-size: 1rem;
     line-height: 1.5;
     padding: 0 16px;
   }
-}
+}

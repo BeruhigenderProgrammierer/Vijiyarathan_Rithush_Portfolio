@@ -1,26 +1,21 @@
-/* Optimiertes CSS für Java Projektverwaltungsprogramm */
-
 .row-1 {
   margin-right: 12px;
   display: flex;
   justify-content: space-between;
   gap: var(--space-md);
 }
-
 .J-Code {
   margin-left: 178px;
   width: 100%;
   height: auto;
   object-fit: contain;
 }
-
 @media only screen and (max-width: 1050px) {
   .row-1 {
     flex-direction: column;
     margin-right: 0;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .J-Code {
     margin-left: 0;
@@ -30,19 +25,16 @@
     object-fit: contain;
   }
 }
-
-/* Global header styles */
 .headerheaderlog-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 80px; /* Set consistent height */
+  height: 80px; 
   padding: 0 2vw;
   width: 100%;
   box-sizing: border-box;
 }
-
 .navigation-1 {
   display: flex;
   flex-direction: row;
@@ -52,28 +44,23 @@
   margin: 0;
   padding: 0;
 }
-
 .navigation-1 li {
   margin: 0;
   padding: 0;
 }
-
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .headerheaderlog-2 {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align elements */
-    justify-content: center; /* Center align the header content */
-    padding-top: 20px; /* Increase spacing from the top */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 20px; 
   }
-
   .headerlogo_one-1 {
-    margin-bottom: 20px; /* Add more spacing below the logo */
+    margin-bottom: 20px; 
   }
-
   .navigation-1 {
     width: 100%;
     text-align: center;
-    margin-bottom: 25px; /* Adjust spacing below navigation */
+    margin-bottom: 25px; 
   }
-}
+}
