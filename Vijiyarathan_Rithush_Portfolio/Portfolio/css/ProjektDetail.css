@@ -1,5 +1,3 @@
-/* Optimiertes CSS für Projekt Details */
-
 .projekt-content {
   background: #181818;
   border-radius: 20px;
@@ -55,7 +53,6 @@
   object-fit: cover;
 }
 
-/* Projekt Text */
 .projekt-text-row {
   display: flex;
   gap: 48px;
@@ -83,7 +80,6 @@
   line-height: 1.6;
 }
 
-/* Media Queries */
 @media (max-width: 1050px) {
   .projekt-bilder-row,
   .projekt-text-row {
@@ -105,8 +101,6 @@
   .projekt-content > h1 {
     font-size: 2.2rem;
   }
-
-  /* Begrenze die Bildbreite in der responsiven Ansicht */
   .projekt-bilder-row img,
   .projekt-bilder-row > div img,
   .projekt-bilder-row > div video,
@@ -115,10 +109,9 @@
     max-width: 420px;
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    object-fit: contain; /* Bild immer vollständig anzeigen */
+    margin-right: auto;    object-fit: contain;
     height: auto;
-    max-height: 300px;   /* Optional: maximale Höhe für Übersichtlichkeit */
+    max-height: 300px;
   }
 
   .projekt-text-row > div {
@@ -156,10 +149,9 @@
     max-width: 95vw;
     width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    object-fit: contain; /* Bild immer vollständig anzeigen */
+    margin-right: auto;    object-fit: contain;
     height: auto;
-    max-height: 220px;   /* Optional: maximale Höhe für Übersichtlichkeit */
+    max-height: 220px;
   }
 
   .projekt-bilder-row > div img,
@@ -168,12 +160,11 @@
   .projekt-bilder-row > div .js-code {
     width: 100%;
     max-width: 95vw;
-    display: block;
-    object-fit: contain; /* Bild immer vollständig anzeigen */
+    display: block;    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    max-height: 220px;   /* Optional: maximale Höhe für Übersichtlichkeit */
+    max-height: 220px;
   }
 
   .projekt-text-row h2,
@@ -187,14 +178,12 @@
   }
 }
 
-/* Rechtes Bild vertikal mittig zum linken Bild ausrichten */
 .projekt-bilder-row > div:last-child {
   justify-content: center;
   align-items: flex-start;
   display: flex;
 }
 
-/* Bild im rechten Container mittig ausrichten */
 .projekt-bilder-row > div:last-child img,
 .projekt-bilder-row > div:last-child video,
 .projekt-bilder-row > div:last-child .J-Code,
@@ -202,3 +191,25 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+      .headerheaderlog-2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      }
+
+      .navigation-1 {
+      flex: 1;
+      }
+      .rowhauptseite-4 {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      }
+      .rowhauptseite-4 li {
+      display: flex;
+      align-items: center;
+      }
